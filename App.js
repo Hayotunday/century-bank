@@ -1,7 +1,7 @@
 import { useFonts } from 'expo-font'
 import { StyleSheet, View } from 'react-native';
 
-import Profile from './screens/Profile'
+import Wallet from './screens/Wallet'
 
 export default function App() {
   const [fontsLoaded] = useFonts({
@@ -20,7 +20,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Profile />
+      <Wallet />
     </View>
   );
 }
